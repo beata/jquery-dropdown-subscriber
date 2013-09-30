@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dropdown Subscriber Test Suite</title>
+  <!-- Load local jQuery. -->
+  <script src="../bower_components/jquery/jquery.js"></script>
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" media="screen">
+  <script src="../bower_components/qunit/qunit/qunit.js"></script>
+  <!-- Load local lib and tests. -->
+  <script src="../src/dropdownsubscriber.js"></script>
+  <script src="dropdownsubscriber_test.js"></script>
+  <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+       you REALLY want to mess around with jQuery in the console. REMEMBER WE
+       ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+  <script>window._$ = jQuery.noConflict(true);</script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+
+    <select id="dropdown" name="dropdown">
+      <option value="">Please Select</option>
+      <option value="1" data-publish-value="10" selected="selected">A</option>
+      <option value="2" data-publish-value="20">B</option>
+      <option value="3" data-publish-value="30">C</option>
+    </select>
+
+    <input type="text" id="input" name="input" value="10"
+      data-dropdown-subscriber="#dropdown" />
+
+    <input type="text" id="input2" name="input2" value="10"
+      data-dropdown-subscriber="#dropdown" />
+
+
+
+  </div>
+</body>
+</html>
