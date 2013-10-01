@@ -1,5 +1,5 @@
-/*! dropdownsubscriber - v0.1.0 - 2013-09-30
-* https://github.com/beata/dropdownsubscriber
+/*! dropdown-subscriber - v0.1.0 - 2013-10-01
+* https://github.com/beata/jquery-dropdown-subscriber
 * Copyright (c) 2013 Beata Lin; Licensed MIT */
 (function ($) {
 

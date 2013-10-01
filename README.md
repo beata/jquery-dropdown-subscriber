@@ -6,14 +6,14 @@ Any input element have subscribed dropdown changes, would be updated with data-p
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/beata/jquery-dropdownsubscriber/master/dist/jquery.dropdownsubscriber.min.js
-[max]: https://raw.github.com/beata/jquery-dropdownsubscriber/master/dist/jquery.dropdownsubscriber.js
+[min]: https://raw.github.com/beata/jquery-dropdown-subscriber/master/dist/jquery.dropdown-subscriber.min.js
+[max]: https://raw.github.com/beata/jquery-dropdown-subscriber/master/dist/jquery.dropdown-subscriber.js
 
 In your web page:
 
 ```html
 <script src="jquery.js"></script>
-<script src="dist/jquery.dropdownsubscriber.min.js"></script>
+<script src="dist/jquery.dropdown-subscriber.min.js"></script>
 ```
 
 ## Examples

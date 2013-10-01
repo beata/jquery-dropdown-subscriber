@@ -1,11 +1,11 @@
 {
-  "name": "dropdownsubscriber",
+  "name": "dropdown-subscriber",
   "version": "0.1.0",
   "description": "Dropdown Subscriber",
   "keywords": [
     "jquery-plugin"
   ],
-  "homepage": "https://github.com/beata/dropdownsubscriber",
+  "homepage": "https://github.com/beata/jquery-dropdown-subscriber",
   "author": {
     "name": "Beata Lin",
     "email": "",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beata/dropdownsubscriber.git"
+    "url": "https://github.com/beata/jquery-dropdown-subscriber.git"
   },
   "licenses": [
     {
