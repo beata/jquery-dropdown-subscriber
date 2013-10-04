@@ -1,6 +1,6 @@
 # Dropdown Subscriber
 
-Any input element have subscribed to dropdown list changes, will be updated to option's [data-publish-value] attribute when the dropdown list changed
+Any input element have subscribed to the changes of dropdown list, it's value will be set to the selected option's [data-publish-value] when the dropdown list changed.
 
 ## Getting Started
 
